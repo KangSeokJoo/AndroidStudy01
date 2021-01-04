@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_MN2"
+        android:title="메뉴 연습2" />
+    <item
+        android:id="@+id/menu_MN"
+        android:title="메뉴연습"
+        app:showAsAction="never" />
+<!--    showAsAction에 never -> ... 형태로 숨김 ifRomm -> 공간에 여유가 있으면 ... 밖에 표시 a;ways => 항상 ...밖에 표시 등-->
+</menu>

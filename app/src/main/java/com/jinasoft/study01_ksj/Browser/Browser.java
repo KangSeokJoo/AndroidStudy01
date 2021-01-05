@@ -30,6 +30,7 @@ public class Browser extends AppCompatActivity {
         WebSettings webSettings = webview.getSettings(); // 웹뷰는 셋팅으로 여러 가지를 설정 가능 그 중 자바스크립트를 사용 하려함
         webSettings.setJavaScriptEnabled(true);
         webview.setWebViewClient(new WebViewClient());
+        webview.loadUrl("https://www.naver.com");
 
 
     }
